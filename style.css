@@ -57,6 +57,46 @@ body {
         font-size: 16px;
         margin-top: 0;
     }
+
+    #preparation-time-block {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #preparation-time-container {
+        width: 85%;
+        background-color: hsl(330, 100%, 98%);  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+    }
+
+    #preparation-time-texts {
+        width: 85%;
+    }
+
+    #prep-title {
+        font-family: Outfit;
+        font-weight: 700;
+        color: hsl(332, 51%, 32%);
+        margin: 18px 0 16px 0;
+        font-size: 18px;
+    }
+
+    ul {
+        padding-left: 20px;
+        margin-bottom: 22px;
+        margin-top: 0;
+    }
+
+    li {
+        font-family: Outfit;
+        margin: 10px 0;
+        padding-left: 10px;
+    }
 }
 
 @media (320px < width < 376px) {
